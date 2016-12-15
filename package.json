@@ -7,7 +7,7 @@
   },
   "author": "Alexander Rowe <alexrowe707@gmail.com> (http://alexrowe.net)",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "paper": "^0.10.2"
   }
 }
