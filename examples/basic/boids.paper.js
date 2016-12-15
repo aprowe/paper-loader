@@ -226,13 +226,13 @@ var boids = [];
 var groupTogether = false;
 
 // Add the boids:
-for (var i = 0; i < 1; i++) {
+for (var i = 0; i < 30; i++) {
 	var position = Point.random() * view.size;
 	boids.push(new Boid(position, 10, 0.05));
 }
 
 function onFrame(event) {
-	for (var i = 0, l = boids.length; i < l; i++) {
+	for (var i = 0, l = boids.length; i < 30; i++) {
 		if (groupTogether) {
 			var length = ((i + event.count / 30) % l) / l * heartPath.length;
 			var point = heartPath.getPointAt(length);

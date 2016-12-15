@@ -16,8 +16,11 @@ as a [`peerDependency`](https://docs.npmjs.com/files/package.json#peerdependenci
 ``` javascript
 var executePaperScript = require('file.paper.js');
 
-// Call the module to create a paperjs scope and execute the code
-var scope = executePaperScript('myCanvasID');
+// Wait for canvas to be created
+window.onload = function () {
+  // Call the module to create a paperjs scope and execute the code
+  var scope = executePaperScript('myCanvasID');
+}
 ```
 
 The module returns a function that can be called to create a PaperJS Scope.
