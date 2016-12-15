@@ -1,0 +1,13 @@
+{
+  "name": "paper-loader",
+  "version": "0.1.0",
+  "description": "Webpack loader for paperjs",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Alexander Rowe <alexrowe707@gmail.com> (http://alexrowe.net)",
+  "license": "MIT",
+  "dependencies": {
+    "paper": "^0.10.2"
+  }
+}
