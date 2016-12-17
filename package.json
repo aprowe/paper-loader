@@ -1,9 +1,13 @@
 {
   "name": "paper-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Webpack loader for paperjs",
   "main": "index.js",
   "scripts": {
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/aprowe/paper-loader"
   },
   "author": "Alexander Rowe <alexrowe707@gmail.com> (http://alexrowe.net)",
   "license": "MIT",
